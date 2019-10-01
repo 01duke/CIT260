@@ -17,6 +17,6 @@ public class A3dot5{
          case 5: System.out.println("Friday"); break;
          case 6: System.out.println("Saturday");
       }
-      scanner.closed();
+   input.close();
    }
 }
