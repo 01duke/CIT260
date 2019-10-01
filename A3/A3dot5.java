@@ -8,7 +8,7 @@ public class A3dot5{
       System.out.print("Enter the number of days elapsed since today: ");
          int futureDay= input.nextInt();
       
-      switch (day + futureDay) {
+      switch ((day + futureDay) % 7) {
          case 0: System.out.println("Sunday"); break;
          case 1: System.out.println("Monday"); break;
          case 2: System.out.println("Tuseday"); break;
