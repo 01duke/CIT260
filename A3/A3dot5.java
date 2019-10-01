@@ -1,3 +1,4 @@
+// finds future the day of the week 
 import java.util.Scanner;
 public class A3dot5{
    public static void main(String[] args) {
