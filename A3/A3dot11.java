@@ -17,7 +17,7 @@ public class A3dot11{
    else if(month == 4 || month == 6 || month ==9|| month == 11)
       days = 30;
       // Check to see if the year is a leap year
-   else if( month == 4 && (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+   else if( month == 2 && (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
       days = 29;
    else
       days =28;
