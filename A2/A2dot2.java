@@ -20,5 +20,6 @@ public class A2dot2 {
       double volume= area * length;
       //Display results
       System.out.print(" Volume is " + volume);
+input.close();
    }
 }
