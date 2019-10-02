@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SandBox",
+            "request": "launch",
+            "mainClass": "SandBox"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A2dot2",
             "request": "launch",
             "mainClass": "A2dot2",
