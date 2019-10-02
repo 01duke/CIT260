@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SandBox",
+            "request": "launch",
+            "mainClass": "SandBox",
+            "projectName": "CIT260_ac45e46a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sandbox",
+            "request": "launch",
+            "mainClass": "Sandbox",
+            "projectName": "CIT260_ac45e46a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise_03_06",
+            "request": "launch",
+            "mainClass": "Exercise_03_06",
+            "projectName": "CIT260_ac45e46a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A3dot19",
             "request": "launch",
             "mainClass": "A3dot19"
