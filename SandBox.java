@@ -1,8 +1,10 @@
-import java.util.Scanner;
+package CIT260;
 
-import jdk.internal.util.xml.impl.Input;
+import java.util.Scanner;
 public class SandBox{
-     public static int hex_to_decimal(String s)
+     private static Scanner scan;
+	private static Scanner input;
+	public static int hex_to_decimal(String s)
     {
              String digits = "0123456789ABCDEF";
              s = s.toUpperCase();
@@ -20,7 +22,7 @@ public class SandBox{
         String hexdec_num;
         int dec_num, i=1, j;
         int bin_num[] = new int[100];
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
 		
         System.out.print("Enter Hexadecimal Number : ");
         hexdec_num = scan.nextLine();
@@ -41,6 +43,7 @@ public class SandBox{
             System.out.print(bin_num[j]);
         }
         System.out.print("\n");
-        input.close();
+        input = null;
+		input.close();
     }
 }

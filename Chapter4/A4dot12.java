@@ -1,7 +1,7 @@
 /* 
 taking a Hexadecimal digit and converting
 to Binary.
- */
+*/
 import java.util.Scanner;
 
 public class A4dot12{
