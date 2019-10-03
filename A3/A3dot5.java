@@ -22,8 +22,8 @@ public class A3dot5 {
             case 5: today = "Friday"; break;
             case 6: today = "Saturday";
         }
-        String future ="";
-        switch (futureDay) {
+      String future ="";
+       switch (futureDay) {
          case 0: future = "Sunday"; break;
          case 1: future = "Monday"; break;
          case 2: future = "Tuesday"; break;
@@ -32,7 +32,7 @@ public class A3dot5 {
          case 5: future = "Friday"; break;
          case 6: future = "Saturday";
         }
-System.out.println("Today is " + today + " and the future day is " + future + ".");
+      System.out.println("Today is " + today + " and the future day is " + future + ".");
 input.close();
     }
 }   
