@@ -2,6 +2,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A4dot12",
+            "request": "launch",
+            "mainClass": "A4dot12",
+            "projectName": "CIT260_ac45e46a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise29",
+            "request": "launch",
+            "mainClass": "Exercise29",
+            "projectName": "CIT260_ac45e46a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A4dot24",
             "request": "launch",
             "mainClass": "A4dot24"
