@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - A4dot24",
+            "request": "launch",
+            "mainClass": "A4dot24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A3dot24",
+            "request": "launch",
+            "mainClass": "A3dot24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SandBox",
             "request": "launch",
             "mainClass": "SandBox"
