@@ -4,7 +4,6 @@ to Binary.
 */
 import java.util.Scanner;
 
-import jdk.nashorn.internal.ir.BinaryNode;
 public class A4dot12{
 public static void main(String[] args){
   Scanner input = new Scanner(System.in);
