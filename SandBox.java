@@ -40,6 +40,5 @@ public class SandBox{
             System.out.print(bin_num[j]);
         }
         System.out.print("\n");
-        input.close();
     }
 }
