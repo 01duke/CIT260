@@ -1,5 +1,6 @@
+
 /*
-* promt three citys put in alfabetical order
+* Prompt three cites put in alphabetical order
 */
 import java.util.Scanner;
 public class A4dot24{

@@ -10,7 +10,6 @@ public class A4dot12{
 
 		System.out.print("Enter a Hexadecimal digit: ");
 		String hexDigit = input.next();
-		binary = "";
 		switch(hexDigit){
 		case "0": binary = "0000"; break;
 		case "1": binary = "0001"; break;
