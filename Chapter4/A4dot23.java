@@ -1,3 +1,9 @@
+/*
+import scanner
+prompt user for name, hours worked, pay rate, fed withholdin rate, State witholding rate
+display name, hours worked, pay rate gross pay, and deductions
+close scanner
+*/
 import java.util.Scanner;
 public class A4dot23{
 	public static void main(String[] args){

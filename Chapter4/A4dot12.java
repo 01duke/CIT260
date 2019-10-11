@@ -1,6 +1,10 @@
 /* 
-taking a Hexadecimal digit and converting
-to Binary.
+open scanner
+take hex input from user
+takes letter or number and assigns to the varable binary
+defalt error
+display binary 
+close scanner
 */
 import java.util.Scanner;
 public class A4dot12{
