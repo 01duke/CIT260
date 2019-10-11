@@ -26,6 +26,6 @@ public class A4dot23{
          , (state + fed) * payRate* hours);
          System.out.printf("\t Net Pay: $%.2f\n"
          , (1 - state - fed) * payRate * hours);
-
+        input.close();
     }
 }

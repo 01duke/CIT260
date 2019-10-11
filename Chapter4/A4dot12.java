@@ -10,6 +10,7 @@ public class A4dot12{
 
 		System.out.print("Enter a Hexadecimal digit: ");
 		String hexDigit = input.next();
+		String binary = "";
 		switch(hexDigit){
 		case "0": binary = "0000"; break;
 		case "1": binary = "0001"; break;
@@ -32,7 +33,8 @@ public class A4dot12{
 		case "e": 
 		case "E": binary = "1110"; break;
 		case "f":
-		case "F": binary = "1111";
+		case "F": binary = "1111"; break;
+
 		default: binary = "Invalid character!"; break;	
 		} 
 		input.close();   
