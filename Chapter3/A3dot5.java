@@ -11,7 +11,6 @@ public class A3dot5 {
         int elapsed = input.nextInt();
 
         int futureDay = (todaysDay + elapsed) % 7;
-        String today = "";
 
         switch (todaysDay) {
             case 0: today = "Sunday"; break;
@@ -22,7 +21,6 @@ public class A3dot5 {
             case 5: today = "Friday"; break;
             case 6: today = "Saturday";
         }
-      String future ="";
        switch (futureDay) {
          case 0: future = "Sunday"; break;
          case 1: future = "Monday"; break;
