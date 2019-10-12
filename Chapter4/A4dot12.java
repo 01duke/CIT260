@@ -1,6 +1,10 @@
 /* 
-taking a Hexadecimal digit and converting
-to Binary.
+open scanner
+take hex input from user
+takes letter or number and assigns to the varable binary
+defalt error
+display binary 
+close scanner
 */
 import java.util.Scanner;
 public class A4dot12{
@@ -9,8 +13,8 @@ public class A4dot12{
 
 		System.out.print("Enter a Hexadecimal digit: ");
 		String hexDigit = input.next();
-
-	switch(hexDigit) {
+		String binary = "";
+		switch(hexDigit){
 		case "0": binary = "0000"; break;
 		case "1": binary = "0001"; break;
 		case "2": binary = "0010"; break;
@@ -32,7 +36,8 @@ public class A4dot12{
 		case "e": 
 		case "E": binary = "1110"; break;
 		case "f":
-		case "F": binary = "1111";
+		case "F": binary = "1111"; break;
+
 		default: binary = "Invalid character!"; break;	
 		} 
 		input.close();   
