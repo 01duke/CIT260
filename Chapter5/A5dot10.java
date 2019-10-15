@@ -1,6 +1,9 @@
-import java.util.Scanner;
-public class A4dot12{
+public class A5dot10{
 	public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        int number = 99;
+        while (number++ < 1001){
+            for(num );
+            System.out.println(number);
+        }
     }
 }
