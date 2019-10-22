@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - A7dot11",
+            "request": "launch",
+            "mainClass": "A7dot11"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A7dot8",
+            "request": "launch",
+            "mainClass": "A7dot8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A7dot18",
+            "request": "launch",
+            "mainClass": "A7dot18"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A6dot8",
             "request": "launch",
             "mainClass": "A6dot8"
