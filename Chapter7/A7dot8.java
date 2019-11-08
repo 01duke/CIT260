@@ -1,11 +1,14 @@
 import java.util.Scanner;
+/*
+* prompt user for 10 numbers
+*
+ */
 
 public class A7dot8 {
   public static void main(String[] args) {
     double[] list = getList();
-    average(list);
-    printList(list);
-
+    double mean = average(list);
+    System.out.println("Sum of double: " + mean);
   }
 
   private static double[] getList() {
@@ -16,22 +19,23 @@ public class A7dot8 {
       list[i] = input.nextDouble();
     }
     return list;
-        scanner.close();
-
   }
 
   public static int average(int[] list) {
-    arrayA = new int[10];
-
+    int sum = 0;
+    for (int i = 0; i < list.length; i++) {
+      sum += list[i];
+    }
+    int mean = sum / list.length;
+    return mean;
   }
 
   public static double average(double[] list) {
-    arrayB = new double[10];
-  }
-
-  private static void printList(double[] list) {
-    for (double val : list) {
-      System.err.println(val + " ");
+    double sum = 0;
+    for (int i = 0; i < list.length; i++) {
+      sum += list[i];
     }
+    double mean = sum / list.length;
+    return mean;
   }
 }

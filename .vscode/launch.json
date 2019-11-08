@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - A9dot3",
+            "request": "launch",
+            "mainClass": "A9dot3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A9dot1",
+            "request": "launch",
+            "mainClass": "A9dot1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A10dot7",
+            "request": "launch",
+            "mainClass": "A10dot7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A8dot5",
+            "request": "launch",
+            "mainClass": "A8dot5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A8dot2",
+            "request": "launch",
+            "mainClass": "A8dot2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A9dot7",
+            "request": "launch",
+            "mainClass": "A9dot7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A8dot6",
+            "request": "launch",
+            "mainClass": "A8dot6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A7dot11",
             "request": "launch",
             "mainClass": "A7dot11"
