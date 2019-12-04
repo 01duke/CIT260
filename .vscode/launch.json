@@ -2,6 +2,54 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - A13dot6",
+            "request": "launch",
+            "mainClass": "A13dot6",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaFXBlank",
+            "request": "launch",
+            "mainClass": "JavaFXBlank",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A13dot4",
+            "request": "launch",
+            "mainClass": "A13dot4",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A12dot3",
+            "request": "launch",
+            "mainClass": "A12dot3",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A12dot2",
+            "request": "launch",
+            "mainClass": "A12dot2",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A2dot1",
+            "request": "launch",
+            "mainClass": "Chapter2.A2dot1",
+            "projectName": "CIT260_a0e67a9f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sandbox",
+            "request": "launch",
+            "mainClass": "Sandbox"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A11dot1",
             "request": "launch",
             "mainClass": "A11dot1"
